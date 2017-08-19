@@ -14,7 +14,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 
     <import file="test.xml"></import>
 
-    <munit:test name="test2" description="Test">
+    <munit:test name="test2wrq" description="Test">
         <munit:execution >
             <flow-ref name="testFlow"/>
         </munit:execution>
