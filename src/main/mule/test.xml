@@ -6,8 +6,8 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
 http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
 http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
-	<flow name="testFlow" doc:id="97c2f9f4-ab58-4fbb-9953-1aab8af0da4d" >
-		<ee:transform doc:name="Transform Message" doc:id="ffda9b0b-3d19-4ed9-a81e-0b782d133b75" >
+	<flow name="testFlow" >
+		<ee:transform doc:name="Transform Message" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0
 output application/java
